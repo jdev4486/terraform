@@ -28,4 +28,13 @@ Terraform v0.11.3
 ```
 git clone https://github.com/jdev4486/terraform.git
 ```
+## Terraform Usage
 
+```
+~/terraform$ terraform plan
+~/terraform$ terraform apply
+```
+
+##License
+
+Standard Copyright License apply
