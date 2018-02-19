@@ -2,6 +2,18 @@
 
 ## Create the base.tf with required provider details
 
+```
+vi base.tf
+
+# Provider Configuration
+provider "aws" {
+  access_key = "XXXXXXXXXXXXX"
+  secret_key = "XXXXXXXXXXXXXX"
+  region     = "us-east-1"
+}
+```
+
+
 #### Initialize Terraform before planning or Applying
 ---
 
