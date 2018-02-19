@@ -1,7 +1,7 @@
 # Terraform Repo for Oracle and Aurora RDS
 
 ### Installation Procedure for Linux
-
+---
 - Step 1: Download Terraform using this [link](https://www.terraform.io/downloads.html)
 
 - Step 2: Install Terraform by unziping the download
@@ -17,14 +17,14 @@
 
 
 ### Verify Terraform Installation
-
+---
 ```
 ~/terraform$ terraform --version
 Terraform v0.11.3
 ```
 
 ### Clone this repo
-
+---
 ```
 git clone https://github.com/jdev4486/terraform.git
 ```
