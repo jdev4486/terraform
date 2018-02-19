@@ -1,3 +1,5 @@
 terraform.tfstate*
 base*plan
 base*
+.DS_Store*
+*DS_Store*

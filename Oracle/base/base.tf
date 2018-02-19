@@ -1,8 +1,8 @@
 # Provider Configuration
 provider "aws" {
-  access_key = "AKIAJIZL4PAN6HBTBZCA"
-  secret_key = "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"
-  region     = "us-east-1"
+  access_key = "${var.access_key}"
+  secret_key = "${var.secret_key}"
+  region     = "${var.region}"
 }
 
 #Resource Configuration
