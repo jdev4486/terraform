@@ -31,9 +31,16 @@ git clone https://github.com/jdev4486/terraform.git
 ## Terraform Usage
 
 ```
+# To determine what resources terraform is going to add or modify
 ~/terraform$ terraform plan
+# To apply the changes
 ~/terraform$ terraform apply
+# To view the resources managed by Terraform
 ~/terraform$ terraform show
+# To check for errors
+~/terraform$ terraform validate
+# To format the terraform code
+~/terraform$ terraform fmt
 ```
 
 ## License
