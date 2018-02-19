@@ -1,6 +1,6 @@
 # Terraform Repo
 
-## Installation Procedure for Linux
+#### Installation Procedure for Linux
 
 - Step 1: Download Terraform using this [link](https://www.terraform.io/downloads.html)
 
@@ -16,9 +16,11 @@
 ```
 
 
-## Verify Terraform Installation
+#### Verify Terraform Installation
 
 ```
 ~/terraform$ terraform --version
 Terraform v0.11.3
 ```
+
+
