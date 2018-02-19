@@ -7,13 +7,12 @@
 - Step 2: Install Terraform by unziping the download
 
 - Step 3: [Configure Path Variables](https://stackoverflow.com/questions/14637979/how-to-permanently-set-path-on-linux-unix)
-
 ```
-         vi ~/.profile or ~/.bashrc
-         export PATH=$PATH:/path/to/dir
-         cd /usr/bin
-         sudo ln -s /path/to/binary terraform
-         source ~/.profile or source ~/.bashrc
+    vi ~/.profile or ~/.bashrc
+    export PATH=$PATH:/path/to/dir
+    cd /usr/bin
+    sudo ln -s /path/to/binary terraform
+    source ~/.profile or source ~/.bashrc
 ```
 
 
