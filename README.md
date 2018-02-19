@@ -33,8 +33,9 @@ git clone https://github.com/jdev4486/terraform.git
 ```
 ~/terraform$ terraform plan
 ~/terraform$ terraform apply
+~/terraform$ terraform show
 ```
 
-##License
+## License
 
 Standard Copyright License apply
