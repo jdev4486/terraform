@@ -23,4 +23,9 @@
 Terraform v0.11.3
 ```
 
+### Clone this repo
+
+```
+git clone https://github.com/jdev4486/terraform.git
+```
 
