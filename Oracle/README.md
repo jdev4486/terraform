@@ -25,6 +25,11 @@ provider "aws" {
 ~/terraform$ terraform plan
 
 # To determine what resources terraform is going to add or modify
-~/terraform$ terraform plan
+~/terraform$ terraform apply
 
+# To save the terraform plan 
+~/terraform$ terraform plan -out base-`date +'%s'`.plan
+
+# To apply the saved plan
+~/terraform$ terraform apply base-1519080786.plan
 ```

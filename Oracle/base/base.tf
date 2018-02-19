@@ -1,14 +1,14 @@
 # Provider Configuration
 provider "aws" {
-  access_key = "AKIAJ6AE7ZSSOCM5V5ZA"
-  secret_key = "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"
+  access_key = "AKIAJIZL4PAN6HBTBZCA"
+  secret_key = "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"
   region     = "us-east-1"
 }
 
 #Resource Configuration
 resource "aws_instance" "base" {
   ami           = "ami-26ebbc5c"
-  instance_type = "t2.micro"
+  instance_type = "t2.medium"
   subnet_id     = "subnet-fe8ebf9b"
 
   tags {
