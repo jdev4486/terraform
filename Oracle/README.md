@@ -32,4 +32,15 @@ provider "aws" {
 
 # To apply the saved plan
 ~/terraform$ terraform apply base-1519080786.plan
+
+
+# To destory all resources
+~/terraform$ terraform destroy
+
+# To destroy targetted resource
+~/terraform$ terraform destroy -target=aws_instance.base
+
+# To destroy resource based on the plan files
+~/terraform$ terraform plan -destroy -out base-destroy-`date +'%s'`.plan
+
 ```
