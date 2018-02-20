@@ -7,15 +7,12 @@ provider "aws" {
 
 #Resource Configuration
 resource "aws_instance" "base" {
-  ami           = "ami-26ebbc5c"
-  instance_type = "t2.medium"
-  subnet_id     = "subnet-fe8ebf9b"
+  ami                    = "${lookup(var.ami, var.region)}"
+  instance_type          = "${lookup(var.instance_type,var.environment_type)}"
+  subnet_id              = "${var.subnet_id}"
+  vpc_security_group_ids = ["${var.security_group_ids}"]
 
   tags {
-    Name = "base"
+    Name = "${var.app_name}"
   }
-}
-
-resource "aws_eip" "base" {
-  instance = "${aws_instance.base.id}"
 }
