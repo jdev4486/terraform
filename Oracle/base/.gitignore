@@ -4,3 +4,4 @@ base*
 .DS_Store*
 *DS_Store*
 terraform.tfvars
+base.tfvars

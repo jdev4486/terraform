@@ -63,5 +63,5 @@ variable "app_name" {
 
 variable "security_group_ids" {
   type    = "list"
-  default = ["sg-2b183650", "sg-4066533b", "sg-6eac9b15"]
+  default = ["sg-a2f6a0dc", "sg-3bf2a445"]
 }
