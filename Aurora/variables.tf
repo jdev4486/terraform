@@ -3,7 +3,7 @@
 ########################
 
 variable "environment_name" {
-    description = "The name of the environment"
+  description = "The name of the environment"
 }
 
 variable "vpc_id" {
@@ -19,7 +19,7 @@ variable "vpc_rds_subnet_ids" {
 }
 
 variable "vpc_rds_security_group_id" {
-    description = "The ID of the security group that should be used for the RDS cluster instances"
+  description = "The ID of the security group that should be used for the RDS cluster instances"
 }
 
 variable "rds_master_username" {
